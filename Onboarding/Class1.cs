@@ -6,13 +6,7 @@ using System.Threading.Tasks;
 
 namespace OnboardingExperience
 {
-    public class User
+    class Class1
     {
-        {public string FirstName { get; set }
-   
-
-    static void Main(string[] args)
-        {
-        }
     }
 }
