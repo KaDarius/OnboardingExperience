@@ -11,38 +11,33 @@ namespace OnboardingExperience
     {
         static void Main(string[] args)
         {
-            string firstName
-            string lastName
-            string accOwner;
+            var name = "firstName";
+            var name2 = "lastName";
+            var isOwner = "accOwner";
             int pin;
-            bool own = false;
-            Console.WriteLine("Please input your Username: " );
-            firstName = Console.ReadLine();
+            bool accOwner = false;
+            Console.WriteLine("Please input your first name: ");
+            name = Console.ReadLine();
             Console.WriteLine("Please input your last name: ");
-            lastName = Console.ReadLine();
+            name2 = Console.ReadLine();
+            Console.WriteLine("Well hi there, "+name+ name2+ ". Almost done here.");
             Console.WriteLine("Are you the account owner?: ");
-            accOwner = Console.ReadLine();
+            isOwner = Console.ReadLine();
             Console.Write("Please enter you PIN: ");
             pin = Console.Read();
-
             {
-                if (accOwner == "yes")
+                if (isOwner == "yes")
                 {
-                    own == true;
-                }
-                {
-                    return true;
+                 Console.WriteLine("Great "+ name + " , you are logged in.");
                 }
 
-                else
-                //brings back a true if yes? 
-                own == false;
-
+                else (isOwner== "no")
                 {
-                    return false;
-
+                    Console.WriteLine("Drats, I can't let you in.");
                 }
             }
         }
+
+
     }
 }

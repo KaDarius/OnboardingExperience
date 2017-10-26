@@ -15,9 +15,6 @@ namespace OnboardingExperience
         public int PinNumber { get; set; }
 
     }
-    
-    public string FirstName { get}
-      //lost// }
 }
 
      
